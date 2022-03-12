@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="MainWidgett">
+   <widget class="QLabel" name="StaffLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Staff</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IDLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>55</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Id</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="StaffCombo">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Doctor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nurse</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ward Boy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Driver</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Reception</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pharmacist</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lab Guy</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="IDEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>81</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SearchBtn">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="DetailsTable">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>1271</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Age</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gender</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Role</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Joined</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Certifications</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="PRecordMenu">
+    <property name="title">
+     <string>Patient Record</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="LoginMenu">
+    <property name="title">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffMenu">
+    <property name="title">
+     <string>Staff</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="VehichleMenu">
+    <property name="title">
+     <string>Vehichle</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RoomsMenu">
+    <property name="title">
+     <string>Rooms</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="BillingMenu">
+    <property name="title">
+     <string>Billing</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffDutyMenu">
+    <property name="title">
+     <string>Staff Duty</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RevenueMenu">
+    <property name="title">
+     <string>Revenue</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="AdmitMenu">
+    <property name="title">
+     <string>Admit</string>
+    </property>
+   </widget>
+   <addaction name="PRecordMenu"/>
+   <addaction name="LoginMenu"/>
+   <addaction name="StaffMenu"/>
+   <addaction name="VehichleMenu"/>
+   <addaction name="RoomsMenu"/>
+   <addaction name="BillingMenu"/>
+   <addaction name="AdmitMenu"/>
+   <addaction name="StaffDutyMenu"/>
+   <addaction name="RevenueMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

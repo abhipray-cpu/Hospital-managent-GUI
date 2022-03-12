@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="MainWidget">
+   <widget class="QLabel" name="PIDLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Patient ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PidEntry">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BillLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>95</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total Bill</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AmountLabel">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>501</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> ₹ 69696</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PayBtn">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>100</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pay</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddRow">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>910</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add Row</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1182</x>
+      <y>10</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Refresh</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>1281</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+    <row>
+     <property name="text">
+      <string>Day1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day9</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day10</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day11</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day12</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day13</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day14</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day15</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day16</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day17</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day18</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day19</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day20</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day21</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day22</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day23</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day24</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day25</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day26</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day27</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day28</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day29</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Day31</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Day</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Room Charge</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Medication Cost</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Operation Charge</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Private Nurse</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>GST</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SGST</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Total</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="PRecordMenu">
+    <property name="title">
+     <string>Patient Record</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="LoginMenu">
+    <property name="title">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffMenu">
+    <property name="title">
+     <string>Staff</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="VehichleMenu">
+    <property name="title">
+     <string>Vehichle</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RoomsMenu">
+    <property name="title">
+     <string>Rooms</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="BillingMenu">
+    <property name="title">
+     <string>Billing</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffDutyMenu">
+    <property name="title">
+     <string>Staff Duty</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RevenueMenu">
+    <property name="title">
+     <string>Revenue</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="AdmitMenu">
+    <property name="title">
+     <string>Admit</string>
+    </property>
+   </widget>
+   <addaction name="PRecordMenu"/>
+   <addaction name="LoginMenu"/>
+   <addaction name="StaffMenu"/>
+   <addaction name="VehichleMenu"/>
+   <addaction name="RoomsMenu"/>
+   <addaction name="BillingMenu"/>
+   <addaction name="AdmitMenu"/>
+   <addaction name="StaffDutyMenu"/>
+   <addaction name="RevenueMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

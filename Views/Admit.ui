@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="MainWidget">
+   <widget class="QLabel" name="NameLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="NameEdit">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GenderLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Gener</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="GenderCombo">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>311</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Male</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Others</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="AgeLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>55</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Age</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="AgeSpin">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>400</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="value">
+     <number>18</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ContactLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Contact</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ContacrEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>480</y>
+      <width>401</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="EmergencyLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Emergency</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="EmergencyEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>540</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FamilyLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>610</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Family</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FamilyEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>610</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AlimentLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>720</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ailment</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="AilmentEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>690</y>
+      <width>421</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RoomNumberLabel">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>90</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Room Number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RoomNumberEdit">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>90</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RoomTypeLabel">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>230</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Room Type</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="RoomCombo">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>230</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>ICU</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VIP Ward</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Private Ward</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>General Ward</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Operation Theatre</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="StaffLabel">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>370</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Assigned Staff</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="StaffEdit">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>360</y>
+      <width>451</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>Doctor{Name},Nurse{Name},WardBoy{name}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="EmailLabel">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>600</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="EmailEdit">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>600</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MedicalHistoryLabel">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>690</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Medical History</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="MedicHistoryEdit">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>690</y>
+      <width>461</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AdmitBtn">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>900</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Admit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>411</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fill in the patient's details in this form</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="PRecordMenu">
+    <property name="title">
+     <string>Patient Record</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="LoginMenu">
+    <property name="title">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffMenu">
+    <property name="title">
+     <string>Staff</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="VehichleMenu">
+    <property name="title">
+     <string>Vehichle</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RoomsMenu">
+    <property name="title">
+     <string>Rooms</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="BillingMenu">
+    <property name="title">
+     <string>Billing</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffDutyMenu">
+    <property name="title">
+     <string>Staff Duty</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RevenueMenu">
+    <property name="title">
+     <string>Revenue</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="AdmitMenu">
+    <property name="title">
+     <string>Admit</string>
+    </property>
+   </widget>
+   <addaction name="PRecordMenu"/>
+   <addaction name="LoginMenu"/>
+   <addaction name="StaffMenu"/>
+   <addaction name="VehichleMenu"/>
+   <addaction name="RoomsMenu"/>
+   <addaction name="BillingMenu"/>
+   <addaction name="AdmitMenu"/>
+   <addaction name="StaffDutyMenu"/>
+   <addaction name="RevenueMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

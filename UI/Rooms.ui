@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>803</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="MainWidget">
+   <widget class="QLabel" name="RoomLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Room Type:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="RoomCombo">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ICU</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VIP Ward</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Private Ward</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>General Ward</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Operation Theatre</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>69</y>
+      <width>781</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="TableLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="showGrid">
+        <bool>false</bool>
+       </property>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Room Number</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Availability</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Bed Count</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Floor</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Room Charge</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Total Beds</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>803</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="PRecordMenu">
+    <property name="title">
+     <string>Patient Record</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="LoginMenu">
+    <property name="title">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffMenu">
+    <property name="title">
+     <string>Staff</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="VehichleMenu">
+    <property name="title">
+     <string>Vehichle</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RoomsMenu">
+    <property name="title">
+     <string>Rooms</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="BillingMenu">
+    <property name="title">
+     <string>Billing</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="StaffDutyMenu">
+    <property name="title">
+     <string>Staff Duty</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="RevenueMenu">
+    <property name="title">
+     <string>Revenue</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="AdmitMenu">
+    <property name="title">
+     <string>Admit</string>
+    </property>
+   </widget>
+   <addaction name="PRecordMenu"/>
+   <addaction name="LoginMenu"/>
+   <addaction name="StaffMenu"/>
+   <addaction name="VehichleMenu"/>
+   <addaction name="RoomsMenu"/>
+   <addaction name="BillingMenu"/>
+   <addaction name="AdmitMenu"/>
+   <addaction name="StaffDutyMenu"/>
+   <addaction name="RevenueMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
