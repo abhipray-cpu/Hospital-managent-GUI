@@ -1,8 +1,9 @@
 #using no strict schema here so purely schemaless architecture will be followed here
 import pymongo
+import os
 from pymongo import MongoClient
 try:
-   client = pymongo.MongoClient('mongodb+srv://puttanpal:puttanpal@cluster0.l891v.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+   client = pymongo.MongoClient(f'{os.environ(["MONGO_URI"])}')
    db = client["hospital"]
    admits = db["admits"]
    bills=db['bills']
