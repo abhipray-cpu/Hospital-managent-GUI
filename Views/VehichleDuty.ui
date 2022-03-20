@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 85, 127);</string>
+  </property>
   <widget class="QWidget" name="MainWidget">
    <widget class="QLabel" name="TodayDutyLabel">
     <property name="geometry">
@@ -29,6 +32,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Today's Duty</string>
@@ -50,6 +56,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Driver Id</string>
     </property>
@@ -62,6 +71,10 @@
       <width>181</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-background-color: rgb(255, 19, 90);</string>
     </property>
    </widget>
    <widget class="QPushButton" name="SearchBtn">
@@ -77,6 +90,10 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 8, 94);</string>
     </property>
     <property name="text">
      <string>Search</string>

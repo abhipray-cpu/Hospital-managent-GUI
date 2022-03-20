@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 85, 127);</string>
+  </property>
   <widget class="QWidget" name="MainWidget">
    <widget class="QLabel" name="PIDLabel">
     <property name="geometry">
@@ -28,6 +31,9 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Patient ID</string>
     </property>
@@ -40,6 +46,10 @@
       <width>201</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
     </property>
    </widget>
    <widget class="QLabel" name="BillLabel">
@@ -57,6 +67,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Total Bill</string>
@@ -78,6 +91,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string> ₹ 69696</string>
     </property>
@@ -96,6 +112,10 @@
       <pointsize>12</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 38, 96);
+color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Pay</string>
     </property>
@@ -113,6 +133,10 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 38, 96);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Add Row</string>
@@ -133,6 +157,10 @@
       <weight>50</weight>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 38, 96);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Refresh</string>
@@ -312,6 +340,13 @@
      <property name="text">
       <string>Day</string>
      </property>
+     <property name="background">
+      <color>
+       <red>255</red>
+       <green>5</green>
+       <blue>101</blue>
+      </color>
+     </property>
     </column>
     <column>
      <property name="text">
@@ -348,6 +383,26 @@
       <string>Total</string>
      </property>
     </column>
+    <item row="0" column="0">
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>255</red>
+        <green>10</green>
+        <blue>116</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
@@ -364,6 +419,10 @@
       <weight>50</weight>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 38, 96);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Search</string>

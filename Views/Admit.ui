@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 85, 127);</string>
+  </property>
   <widget class="QWidget" name="MainWidget">
    <widget class="QLabel" name="NameLabel">
     <property name="geometry">
@@ -29,6 +32,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Name</string>
@@ -65,6 +71,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Gener</string>
     </property>
@@ -82,6 +91,10 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(255, 0, 127);
+color: rgb(255, 255, 255);</string>
     </property>
     <item>
      <property name="text">
@@ -115,6 +128,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Age</string>
     </property>
@@ -132,6 +148,10 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
     </property>
     <property name="value">
      <number>18</number>
@@ -153,6 +173,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Contact</string>
     </property>
@@ -171,6 +194,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="EmergencyLabel">
     <property name="geometry">
@@ -187,6 +214,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Emergency</string>
@@ -206,6 +236,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="FamilyLabel">
     <property name="geometry">
@@ -222,6 +256,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Family</string>
@@ -241,6 +278,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="AlimentLabel">
     <property name="geometry">
@@ -257,6 +298,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Ailment</string>
@@ -276,6 +320,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="RoomNumberLabel">
     <property name="geometry">
@@ -292,6 +340,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Room Number</string>
@@ -311,6 +362,11 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="RoomTypeLabel">
     <property name="geometry">
@@ -327,6 +383,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Room Type</string>
@@ -347,6 +406,10 @@
       <weight>50</weight>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-background-color: rgb(255, 0, 127);
+color: rgb(255, 255, 255);</string>
     </property>
     <item>
      <property name="text">
@@ -390,6 +453,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Assigned Staff</string>
     </property>
@@ -407,6 +473,10 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
     </property>
     <property name="placeholderText">
      <string>Doctor{Name},Nurse{Name},WardBoy{name}</string>
@@ -428,6 +498,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Email</string>
     </property>
@@ -446,6 +519,9 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="MedicalHistoryLabel">
     <property name="geometry">
@@ -462,6 +538,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Medical History</string>
@@ -481,6 +560,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="AdmitBtn">
     <property name="geometry">
@@ -497,6 +580,10 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 127);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Admit</string>
@@ -517,6 +604,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Fill in the patient's details in this form</string>

@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 85, 127);</string>
+  </property>
   <widget class="QWidget" name="MainWidget">
    <widget class="QLabel" name="MonthLabel">
     <property name="geometry">
@@ -29,6 +32,10 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Month</string>
@@ -47,6 +54,11 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+selection-background-color: rgb(255, 6, 93);</string>
     </property>
     <item>
      <property name="text">
@@ -125,6 +137,10 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Year</string>
     </property>
@@ -142,6 +158,11 @@
      <font>
       <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+selection-background-color: rgb(255, 6, 93);</string>
     </property>
     <item>
      <property name="text">
@@ -268,6 +289,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 6, 93);</string>
+    </property>
     <property name="text">
      <string>Find</string>
     </property>
@@ -280,6 +305,10 @@
       <width>93</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 6, 93);</string>
     </property>
     <property name="text">
      <string>Refresh</string>

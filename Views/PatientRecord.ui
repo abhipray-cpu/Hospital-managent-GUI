@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 85, 127);</string>
+  </property>
   <widget class="QWidget" name="MainWidget">
    <widget class="QLabel" name="PIDLabel">
     <property name="geometry">
@@ -29,6 +32,9 @@
       <weight>50</weight>
       <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Patitent ID</string>
@@ -48,6 +54,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-background-color: rgb(255, 11, 104);</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="SearchBtn">
     <property name="geometry">
@@ -57,6 +67,10 @@
       <width>93</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 7, 85);</string>
     </property>
     <property name="text">
      <string>Show Record</string>
@@ -76,6 +90,9 @@
       <pointsize>12</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Patitent Name</string>
     </property>
@@ -94,6 +111,10 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+selection-background-color: rgb(255, 11, 104);</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="SearchBtn_2">
     <property name="geometry">
@@ -103,6 +124,10 @@
       <width>93</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 7, 85);</string>
     </property>
     <property name="text">
      <string>Show Record</string>
@@ -116,6 +141,10 @@
       <width>93</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 7, 85);</string>
     </property>
     <property name="text">
      <string>Refresh</string>
